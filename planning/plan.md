@@ -2,7 +2,6 @@
 # Fabric Data Concierge — Plan
 
 **Scope**: Detailed syllabus (with acceptance criteria) and target architecture for the Fabric Data Concierge.  
-**Note**: No Bicep templates in this document; this is the “what” and “how it fits together.”
 
 ---
 
@@ -260,3 +259,4 @@
 - **Ambiguous NL** → Enforce disambiguation turns (e.g., pick a dataset/model) before generating queries.  
 - **Permission gaps** → MI must not bypass RLS—verify with negative tests.  
 - **Cost/latency** → Enable caching for frequent catalog answers; cap result sizes; paginate tables.
+
